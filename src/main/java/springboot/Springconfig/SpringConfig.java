@@ -1,3 +1,4 @@
+/*
 package springboot.Springconfig;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,13 +7,15 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import springboot.dao.UserDao;
+*/
 /**
  * @ author ezra
  * @ date 2019/3/27 14:27
- */
+ *//*
+
 @Configuration   // 通过该注解来表明该类是一个spring的配置。相当于一个XML
 @ComponentScan(basePackages = "springboot")  // 配置扫描包
-@PropertySource(value = {"classpath:mybatis.properties"}, ignoreResourceNotFound = true)
+@PropertySource(value = {"classpath:application.yml"}, ignoreResourceNotFound = true)
 public class SpringConfig {
 
 	@Bean  // 通过该注解来表明是一个Bean对象，相当于xml中的<bean>
@@ -46,3 +49,4 @@ public class SpringConfig {
 	}
 
 }
+*/

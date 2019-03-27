@@ -1,5 +1,7 @@
 package springboot.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,11 +20,13 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
+	private static Logger LOGGER = LoggerFactory.getLogger(UserController.class);
+
 	@RequestMapping("getUser")
 	public String getUser() {
 		List<User> userList = userService.queryUserList();
 		for (User user : userList) {
-			user.toString();
+			LOGGER.info(user.toString());
 		}
 		return "SUCCESS";
 	}

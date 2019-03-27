@@ -2,8 +2,9 @@ package springboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import springboot.dao.UserDao;
 import springboot.entity.User;
+import springboot.mapper.UserMapper;
+
 import java.util.List;
 
 /**
@@ -14,9 +15,9 @@ import java.util.List;
 public class UserService {
 
 	@Autowired
-	private UserDao userDao;
+	private UserMapper userMapper;
 
 	public List<User> queryUserList() {
-		return this.userDao.queryUserList();
+		return this.userMapper.selectUserAll();
 	}
 }
