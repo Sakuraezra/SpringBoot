@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b0a8c7-94ce-4616-a0d1-a8a7d2de95bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/controller/PriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/entity/AdjustPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/entity/FinalPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/entity/OriginPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/mapper/AdjustPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/mapper/OriginPriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/service/AdjustPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/service/OriginPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springbootDemo/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/AdjustPriceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/OriginPriceMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,7 +110,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/AdjustPriceMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
+            <state relative-caret-position="527">
               <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
             </state>
           </provider>
@@ -492,7 +479,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554195186678" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554195777171" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -769,12 +756,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553660313295</updated>
       <workItem from="1553660316653" duration="17043000" />
-      <workItem from="1553739860037" duration="27042000" />
+      <workItem from="1553739860037" duration="27644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44085000" />
+    <option name="totallyTimeSpent" value="44687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,7 +774,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-5" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -800,14 +786,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4636265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4636265" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.330076" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.330076" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -1234,7 +1220,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/AdjustPriceMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="527">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
         </state>
       </provider>
