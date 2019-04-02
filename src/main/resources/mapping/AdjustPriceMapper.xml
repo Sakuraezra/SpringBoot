@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springboot.mapper.AdjustPriceMapper">
+
+    <select id="selectHospital" resultType="springboot.entity.AdjustPrice">
+    SELECT 身份证号 IDNumber, 补充保险 adjustPrice from final fnl left join adjust adj  on adj.身份证号 = fnl.身份证 where 方式 = "机构";
+    </select>
+    <select id="selectPersonal" resultType="springboot.entity.AdjustPrice">
+    SELECT 身份证号 IDNumber, 补充保险 adjustPrice from final fnl left join adjust adj  on adj.身份证号 = fnl.身份证 where 方式 = "个人";
+    </select>
+
+    <select id="selectFinalHospital" resultType="springboot.entity.FinalPrice">
+    SELECT 身份证 IDNumber, 医院adjust adjustHospital,医院origin originHospital from final;
+    </select>
+
+    <select id="selectFinalPersonal" resultType="springboot.entity.FinalPrice">
+    SELECT 身份证 IDNumber, 个人adjust adjustPersonal,个人origin originPersonal from final;
+    </select>
+
+
+    <update id="updateHospitalByIdNumber">
+        UPDATE final set 医院adjust = #{hospitalPrice} where 身份证 = #{IDNumber};
+    </update>
+    <update id="updatePersonalByIdNumber">
+        UPDATE final set 个人adjust = #{personalPrice} where 身份证 = #{IDNumber};
+    </update>
+
+    <update id="updateFinalHospitalPrice">
+        UPDATE final set 医院 = #{hospital} where 身份证 = #{IDNumber};
+    </update>
+    <update id="updateFinalPersonalPrice">
+        UPDATE final set 个人 = #{personal} where 身份证 = #{IDNumber};
+    </update>
+
+</mapper>
